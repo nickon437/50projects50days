@@ -37,19 +37,19 @@ body {
 .progress {
   position: absolute;
   height: 4px;
-  width: 50%;
+  width: 0;
   background-color: var(--border-line-filled);
   z-index: -1;
   transition: width 0.4s ease;
 }
 
-.progress-container::after {
+.progress-container::before {
   content: "";
   position: absolute;
   height: 4px;
   width: 100%;
   background-color: var(--border-line-empty);
-  z-index: -2;
+  z-index: -1;
 }
 
 .circle {
@@ -62,11 +62,12 @@ body {
   align-items: center;
   border-radius: 50%;
   border: 3px solid var(--border-line-empty);
-  transition: border-color 0.4s ease-in
+  transition: all 0.4s ease-in;
 }
 
 .circle.active {
   border-color: var(--border-line-filled);
+  color: var(--border-line-filled);
 }
 
 .btn {
