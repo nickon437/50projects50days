@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  position: relative;
+}
+
+.circle-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.circle {
+  background-color: tomato;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  transition: transform 0.5s ease-in;
+}
+
+.quarter-card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+  height: 50%;
+  transform-origin: top left;
+}
+
+.quarter-card button {
+  background-color: transparent;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  border: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+
+.quarter-card:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+.show-nav .circle {
+  transform: rotate(-90deg);
+}
