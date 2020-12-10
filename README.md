@@ -5,8 +5,8 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Expanding Cards
 - [x] Progress Steps
 - [x] Rotating Navigation Animation
-- [ ] Hidden Search Widget
-- [ ] Blurry Loading
+- [x] Hidden Search Widget
+- [x] Blurry Loading
 - [ ] Scroll Animation
 - [ ] Split Landing Page
 - [ ] Form Wave
