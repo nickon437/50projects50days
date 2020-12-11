@@ -7,7 +7,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Rotating Navigation Animation
 - [x] Hidden Search Widget
 - [x] Blurry Loading
-- [ ] Scroll Animation
+- [x] Scroll Animation
 - [ ] Split Landing Page
 - [ ] Form Wave
 - [ ] Sound Board
