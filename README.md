@@ -8,7 +8,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Hidden Search Widget
 - [x] Blurry Loading
 - [x] Scroll Animation
-- [ ] Split Landing Page
+- [x] Split Landing Page
 - [ ] Form Wave
 - [ ] Sound Board
 - [ ] Dad Jokes
