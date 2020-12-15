@@ -9,7 +9,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Blurry Loading
 - [x] Scroll Animation
 - [x] Split Landing Page
-- [ ] Form Wave
+- [x] Form ~Wave~ Float
 - [ ] Sound Board
 - [ ] Dad Jokes
 - [ ] Event Keycodes
