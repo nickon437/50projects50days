@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --unfocused-color: rgba(255, 255, 255, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background: rebeccapurple;
+  color: white
+}
+
+.container {
+  background-color: rgba(1, 1, 1, 0.3);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 20rem;
+  border-radius: 6px;
+}
+
+.container .input-container {
+  position: relative;
+  width: 100%;
+}
+
+.container input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid var(--unfocused-color);
+  height: 2rem;
+  transition: all 0.5s ease;
+  outline: none;
+  color: white;
+}
+
+.container input:invalid {
+  box-shadow: none;
+  border-color: red;
+}
+
+.container label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--unfocused-color);
+  transition: all 0.5s ease;
+}
+
+.container input:focus {
+  border-color: white;
+}
+
+.container input:focus + label,
+.container input:not(:placeholder-shown) + label {
+  top: -50%;
+  font-size: 0.7rem;
+  color: white;
+}
+
+.container button {
+  height: 3rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bold;
+  font-family: inherit;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.container button:active {
+  transform: scale(0.98);
+}
+
+.container a {
+  color: white;
+}
+
+.container a:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
+
