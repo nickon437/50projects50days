@@ -10,7 +10,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Scroll Animation
 - [x] Split Landing Page
 - [x] Form ~Wave~ Float
-- [ ] Sound Board
+- [x] Sound Board
 - [ ] Dad Jokes
 - [ ] Event Keycodes
 - [ ] Faq Collapse
