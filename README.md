@@ -13,7 +13,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Sound Board
 - [x] Dad Jokes
 - [x] Event Keycodes
-- [ ] Faq Collapse
+- [x] Faq Collapse
 - [ ] Random Choice Picker
 - [ ] Animated Navigation
 - [ ] Incrementing Counter
