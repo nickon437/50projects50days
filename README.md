@@ -16,7 +16,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Faq Collapse
 - [x] Random Choice Picker
 - [x] Animated Navigation
-- [ ] Incrementing Counter
+- [x] Incrementing Counter
 - [ ] Drink Water
 - [ ] Movie App
 - [ ] Background Slider
