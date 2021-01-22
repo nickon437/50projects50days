@@ -74,7 +74,7 @@ h3 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  flex-grow: 1;
+  flex: 1;
   transition: 0.3s ease;
 }
 
@@ -96,14 +96,4 @@ h3 {
   font-size: 30px;
   height: 0;
   transition: 0.3s ease;
-}
-
-
-
-.remained-amount {
-
-}
-
-.filled-cenentage {
-
 }
