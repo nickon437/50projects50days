@@ -18,7 +18,7 @@ This is a challenge base on Brad Traversy and Florin Pop's [50 Projects in 50 Da
 - [x] Animated Navigation
 - [x] Incrementing Counter
 - [x] Drink Water
-- [ ] Movie App
+- [x] Movie App
 - [ ] Background Slider
 - [ ] Theme Clock
 - [ ] Button Ripple Effect
